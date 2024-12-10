@@ -1,0 +1,56 @@
+h1 {
+    color:blueviolet
+}
+.cell_dropdown {
+    text-align: center;
+}
+.main_menu{
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.main_menu a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+.main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+  }
+
+.mat_ordering #work_order {
+    display: block;
+}
+
+#qnum {
+    display: block;
+}
+.mat_ordering #art_cells {
+    display: block;
+}
+#bin_letter {
+    display: block;
+}
+.mat_ordering #special_instructions {
+    display: block;
+}
+
+.mat_ordering #multi-mat-check {
+    display: block;
+}
+
+.mat_ordering #template_img {
+    display: block;
+}
+
+.mat_ordering #template_json {
+    display: block;
+}

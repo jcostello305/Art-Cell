@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Component Ordering</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="comps_ordering">
+                <form>
+                    <label for="work_order">Work Order</label>
+                    <input type="text" id="work_order">
+
+                    <label for="qnum">QNUM</label>
+                    <input type="text" id="qnum">
+
+                    <label for="art_cells">Cell Number</label>
+                    <input list="art_cells">
+                    <datalist id="art_cells">
+                        <option value="Cell A"></option>
+                        <option value="Cell B"></option>
+                        <option value="Cell C"></option>
+                        <option value="Cell D"></option>
+                        <option value="Cell E"></option>
+                        <option value="Cell F"></option>
+                        <option value="Cell G"></option>
+                        <option value="Cell H"></option>
+                    </datalist>
+
+                    <label for="bin_letter">Bin Number</label>
+                    <input list="bin_letter">
+                    <datalist id="bin_letter">
+                        <option value="A"></option>
+                        <option value="B"></option>
+                        <option value="C"></option>
+                        <option value="D"></option>
+                    </datalist>
+
+                    <label for="special_instructions">Special Instructions</label>
+                    <input type="text" id="special_instructions">
+                    
+                </form>
+            </div>
+        </div>
+        <div class="main_menu">
+            <a href="main.html">Login</a>
+            <a href="recieve.html">Recieving</a>
+            <a href="mount.html">Mounting</a>
+            <a href="assembly.html">Assembly</a>
+            <a href="quality.html">QC</a>
+            <a href="mats.html">Mat Order Form</a>
+            <a href="comps.html">Component Order Form</a>
+        </div>
+    </body>
+</html>

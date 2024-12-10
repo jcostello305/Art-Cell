@@ -1,0 +1,69 @@
+<!--TODO:
+- Checkbox for multi-mat (makes it so you must upload file(s) to submit)
+- File upload (json and img) with validation
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mat Ordering</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="main">
+            <h1>Mat Order Form</h1>
+            <div class="mat_ordering">
+                <form>
+                    <label for="work_order">Work Order</label>
+                    <input type="text" id="work_order">
+
+                    <label for="qnum">QNUM</label>
+                    <input type="text" id="qnum">
+
+                    <label for="art_cells">Cell Number</label>
+                    <input list="art_cells">
+                    <datalist id="art_cells">
+                        <option value="Cell A"></option>
+                        <option value="Cell B"></option>
+                        <option value="Cell C"></option>
+                        <option value="Cell D"></option>
+                        <option value="Cell E"></option>
+                        <option value="Cell F"></option>
+                        <option value="Cell G"></option>
+                        <option value="Cell H"></option>
+                    </datalist>
+
+                    <label for="bin_letter">Bin Number</label>
+                    <input list="bin_letter">
+                    <datalist id="bin_letter">
+                        <option value="A"></option>
+                        <option value="B"></option>
+                        <option value="C"></option>
+                        <option value="D"></option>
+                    </datalist>
+
+                    <label for="special_instructions">Special Instructions</label>
+                    <input type="text" id="special_instructions">
+                    
+                    <label for="multi-mat-check">Multi-mat</label>
+                    <input type="checkbox" id="multi-mat-check">
+
+                    <label for="template_img">Template Image</label>
+                    <input type="file" id="template_img" name="tmep_img">
+
+                    <label for="template_json">Template JSON</label>
+                    <input type="file" id="template_json" name="temp_json">
+                </form>
+            </div>
+        </div>
+        <div class="main_menu">
+            <a href="main.html">Login</a>
+            <a href="recieve.html">Recieving</a>
+            <a href="mount.html">Mounting</a>
+            <a href="assembly.html">Assembly</a>
+            <a href="quality.html">QC</a>
+            <a href="mats.html">Mat Order Form</a>
+            <a href="comps.html">Component Order Form</a>
+        </div>
+    </body>
+</html>

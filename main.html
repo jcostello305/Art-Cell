@@ -1,0 +1,51 @@
+<!--TODO:
+-Work order class
+-Google Account Integration
+-Menu displayed after sign in
+-CSS for all pages
+
+--Later--
+-Python container page for template maker
+
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Art Cell</title>
+        <link rel="stylesheet" href="style.css">
+        <script defer src="login.js"></script>
+    </head>
+    <body>
+        <div class="main">
+        <h1>VA Art Cell</h1>
+        <div class="cell_dropdown">
+            <form id="login_form">
+                <label for="art_cells">Art Cell</label>
+                <input list="art_cells" name="art_cell_select" id="art_cell_select">
+                <datalist id="art_cells">
+                    <option value="Cell A"></option>
+                    <option value="Cell B"></option>
+                    <option value="Cell C"></option>
+                    <option value="Cell D"></option>
+                    <option value="Cell E"></option>
+                    <option value="Cell F"></option>
+                    <option value="Cell G"></option>
+                    <option value="Cell H"></option>
+                </datalist>
+                <label for="user">Username</label>
+                <input type="text" id="user" default = "">
+                <button type="button" id="login_button">Login</button>
+            </form>
+        </div>
+    </div>
+
+        <div class="main_menu">
+                <a href="recieve.html">Recieving</a>
+                <a href="mount.html">Mounting</a>
+                <a href="assembly.html">Assembly</a>
+                <a href="quality.html">QC</a>
+                <a href="mats.html">Mat Order Form</a>
+                <a href="comps.html">Component Order Form</a>
+        </div>
+    </body>
+</html>
